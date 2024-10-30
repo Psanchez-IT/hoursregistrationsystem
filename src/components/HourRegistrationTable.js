@@ -1,9 +1,8 @@
-// UrenregistratieTable.js
 import React from 'react';
 
-const UrenregistratieTable = ({ registraties }) => {
+const HourRegistrationFormTable = ({ registraties }) => {
     return (
-        <table className="urenregistratie-table">
+        <table className="hourRegistration-table">
             <thead>
                 <tr>
                     <th>Datum</th>
@@ -32,4 +31,4 @@ const UrenregistratieTable = ({ registraties }) => {
     );
 };
 
-export default UrenregistratieTable;
+export default HourRegistrationFormTable;

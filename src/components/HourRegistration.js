@@ -1,10 +1,9 @@
-// Urenregistratie.js
 import React, { useState } from 'react';
-import UrenregistratieForm from './UrenregistratieForm';
-import UrenregistratieTable from './UrenregistratieTable';
-import './Urenregistratie.css';
+import UrenregistratieForm from './HourRegistrationForm';
+import UrenregistratieTable from './HourRegistrationTable';
+import './HourRegistration.css';
 
-const Urenregistratie = () => {
+const HourRegistration = () => {
     const [registraties, setRegistraties] = useState([]);
 
     const addRegistratie = (registratie) => {
@@ -22,15 +21,15 @@ const Urenregistratie = () => {
     };
 
     return (
-        <div className="urenregistratie">
+        <div className="hourRegistration">
             <h1>Urenregistratie Systeem</h1>
             <UrenregistratieForm addRegistratie={addRegistratie} />
             <UrenregistratieTable registraties={registraties} />
-            <div className="totaal">
+            <div className="total">
                 <strong>Totaal:</strong> €{berekenTotaal().toFixed(2)}
             </div>
         </div>
     );
 };
 
-export default Urenregistratie;
+export default HourRegistration;

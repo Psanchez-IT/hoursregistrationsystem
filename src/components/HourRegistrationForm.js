@@ -1,7 +1,6 @@
-// UrenregistratieForm.js
 import React, { useState } from 'react';
 
-const UrenregistratieForm = ({ addRegistratie }) => {
+const HourRegistrationForm = ({ addRegistratie }) => {
     const [datum, setDatum] = useState('');
     const [starttijd, setStarttijd] = useState('');
     const [eindtijd, setEindtijd] = useState('');
@@ -32,7 +31,7 @@ const UrenregistratieForm = ({ addRegistratie }) => {
     };
 
     return (
-        <form className="urenregistratie-form" onSubmit={handleSubmit}>
+        <form className="hourRegistration-form" onSubmit={handleSubmit}>
             <label>
                 Datum:
                 <input type="date" value={datum} onChange={(e) => setDatum(e.target.value)} required />
@@ -62,4 +61,4 @@ const UrenregistratieForm = ({ addRegistratie }) => {
     );
 };
 
-export default UrenregistratieForm;
+export default HourRegistrationForm;

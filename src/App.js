@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Urenregistratie from './components/Urenregistratie';
+import HourRegistration from './components/HourRegistration';
 
 function App() {
   return (
     <div className="App">
-      <Urenregistratie />
+      <HourRegistration />
     </div>
   );
 }
