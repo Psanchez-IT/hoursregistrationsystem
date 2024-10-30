@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hoursregistrationsystem/static/css/main.80a6bee2.css",
-    "main.js": "/hoursregistrationsystem/static/js/main.b5b93a15.js",
+    "main.css": "/hoursregistrationsystem/static/css/main.eabb9c0f.css",
+    "main.js": "/hoursregistrationsystem/static/js/main.b28bf4f4.js",
     "static/js/453.aa4acfe7.chunk.js": "/hoursregistrationsystem/static/js/453.aa4acfe7.chunk.js",
     "index.html": "/hoursregistrationsystem/index.html",
-    "main.80a6bee2.css.map": "/hoursregistrationsystem/static/css/main.80a6bee2.css.map",
-    "main.b5b93a15.js.map": "/hoursregistrationsystem/static/js/main.b5b93a15.js.map",
+    "main.eabb9c0f.css.map": "/hoursregistrationsystem/static/css/main.eabb9c0f.css.map",
+    "main.b28bf4f4.js.map": "/hoursregistrationsystem/static/js/main.b28bf4f4.js.map",
     "453.aa4acfe7.chunk.js.map": "/hoursregistrationsystem/static/js/453.aa4acfe7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80a6bee2.css",
-    "static/js/main.b5b93a15.js"
+    "static/css/main.eabb9c0f.css",
+    "static/js/main.b28bf4f4.js"
   ]
 }
