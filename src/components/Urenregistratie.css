@@ -1,0 +1,54 @@
+/* Urenregistratie.css */
+.urenregistratie {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.urenregistratie h1 {
+    text-align: center;
+}
+
+.urenregistratie-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.urenregistratie-form label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.urenregistratie-form input {
+    width: 60%;
+}
+
+.urenregistratie-form button {
+    align-self: flex-start;
+    padding: 5px 10px;
+}
+
+.urenregistratie-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.urenregistratie-table th,
+.urenregistratie-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.urenregistratie-table th {
+    background-color: #f4f4f4;
+}
+
+.totaal {
+    text-align: right;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
